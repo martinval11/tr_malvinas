@@ -85,7 +85,7 @@
 .charts {
   background: #fff;
   width: 100%;
-  padding: 0px 100px 25px;
+  padding: 0px 75px 25px;
   color: #000;
   text-align: center;
 }
@@ -112,23 +112,18 @@
     width: 100%;
     flex-direction: column;
   }
+  
+  .charts {
+    padding: 0;
+  }
+  
+  .charts div {
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .card {
     width: 90%;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }
