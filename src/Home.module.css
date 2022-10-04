@@ -44,14 +44,19 @@
   background: #356c94;
 }
 
-.madeby {
-  border-top: 1px solid #52b0f3;
+.footer hr {
   width: 100%;
-  text-align: center;
-  padding: 17px 10px 5px;
+  border: 1px solid #7ac8ff;
+  margin-top: 20px;
 }
 
-.footer svg {
+.footer span {
+  padding: 7px 0 0 0;
+}
+
+.madeby {
+  width: 100%;
+  text-align: center;
 }
 
 .title {

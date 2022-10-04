@@ -165,7 +165,7 @@ export default function App() {
         <a href="www.instagram.com" target="_blank" rel="noopener noreferrer"><Instagram />{' '}Instagram</a>
         <a href="https://www.facebook.com/groups/423827537724306/" target="_blank" rel="noopener noreferrer"><Facebook />{' '}Facebook</a>
 				</div>
-				<br />
+				<hr />
         <span className={styles.madeby}>Hecho por Martín Valdez</span>
       </footer>
 		</div>
