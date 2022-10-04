@@ -140,6 +140,10 @@
   text-decoration: underline;
 }
 
+.charts span {
+  font-size: 13px;
+}
+
 .charts a:hover {
   text-decoration: none;
 }
