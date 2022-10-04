@@ -34,7 +34,7 @@ export const options = {
 	},
 };
 
-const labels = ['Muertos en combate', 'Suicidios', 'Heridos'];
+const labels = ['Muertos', 'Suicidios', 'Heridos'];
 
 export const data = {
 	labels,
