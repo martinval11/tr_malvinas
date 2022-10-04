@@ -162,7 +162,7 @@ export default function App() {
       <footer className={styles.footer}>
         <h3>Redes Sociales de la EESº77</h3>
 				<div className="center">
-        <a href="www.instagram.com" target="_blank" rel="noopener noreferrer"><Instagram />{' '}Instagram</a>
+        <a href="https://instagram.com/secundaria77mardelplata?igshid=YmMyMTA2M2Y" target="_blank" rel="noopener noreferrer"><Instagram />{' '}Instagram</a>
         <a href="https://www.facebook.com/groups/423827537724306/" target="_blank" rel="noopener noreferrer"><Facebook />{' '}Facebook</a>
 				</div>
 				<hr />
