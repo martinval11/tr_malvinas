@@ -16,11 +16,42 @@
 
 .footer {
   display: flex;
-  padding: 1rem;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
   background: #4C9CD5;
   color: #fff;
+}
+
+.footer h3 {
+  font-size: 21px;
+  margin: 10px 0 24px;
+}
+
+.footer a {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #3f81b1;
+  margin: 4px;
+  width: 120px;
+  border-radius: 7px;
+  transition: all .2s;
+}
+
+.footer a:hover {
+  background: #356c94;
+}
+
+.madeby {
+  border-top: 1px solid #52b0f3;
+  width: 100%;
+  text-align: center;
+  padding: 17px 10px 5px;
+}
+
+.footer svg {
 }
 
 .title {
@@ -108,7 +139,7 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 590px) {
   .grid {
     width: 100%;
     flex-direction: column;

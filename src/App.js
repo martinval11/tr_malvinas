@@ -10,6 +10,8 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
+import { Facebook, Instagram } from 'react-bootstrap-icons';
+
 ChartJS.register(
 	CategoryScale,
 	LinearScale,
@@ -157,7 +159,15 @@ export default function App() {
 				</section>
 			</main>
 
-			<footer className={styles.footer}>Hecho por Martín Valdez</footer>
+      <footer className={styles.footer}>
+        <h3>Redes Sociales de la EESº77</h3>
+				<div className="center">
+        <a href="" target="_blank" rel="noopener noreferrer"><Instagram />{' '}Instagram</a>
+        <a href="https://www.facebook.com/groups/423827537724306/" target="_blank" rel="noopener noreferrer"><Facebook />{' '}Facebook</a>
+				</div>
+				<br />
+        <span className={styles.madeby}>Hecho por Martín Valdez</span>
+      </footer>
 		</div>
 	);
 }
