@@ -20,6 +20,25 @@ a {
   color: #000;
 }
 
+#photos {
+  background: #fff;
+}
+
+#images {
+  display: flex;
+}
+
+.imagesMoreHeight img {
+  height: 420px !important;
+}
+
+#images img {
+  padding: 5px;
+  width: 25%;
+  height: 300px;
+  object-fit: cover;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -27,5 +46,19 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #images {
+    display: inherit;
+  }
+
+  #images img {
+    width: 100%;
+  }
+
+  .imagesMoreHeight img {
+    height: 650px !important;
   }
 }

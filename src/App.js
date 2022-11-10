@@ -69,8 +69,7 @@ export default function App() {
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowFullScreen
-						></iframe>
+							allowFullScreen></iframe>
 					</div>
 
 					<div className={styles.card}>
@@ -82,8 +81,7 @@ export default function App() {
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowFullScreen
-						></iframe>
+							allowFullScreen></iframe>
 					</div>
 
 					<div className={styles.card}>
@@ -95,8 +93,7 @@ export default function App() {
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowFullScreen
-						></iframe>
+							allowFullScreen></iframe>
 					</div>
 
 					<div className={styles.card}>
@@ -108,8 +105,7 @@ export default function App() {
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowFullScreen
-						></iframe>
+							allowFullScreen></iframe>
 					</div>
 
 					<div className={styles.card}>
@@ -121,8 +117,7 @@ export default function App() {
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowFullScreen
-						></iframe>
+							allowFullScreen></iframe>
 					</div>
 
 					<div className={styles.card}>
@@ -136,38 +131,68 @@ export default function App() {
 							title='YouTube video player'
 							frameBorder='0'
 							allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-							allowFullScreen
-						></iframe>
+							allowFullScreen></iframe>
 					</div>
 				</div>
 
 				<section className={styles.charts}>
 					<h2>Estadísticas</h2>
-					<Bar options={options} data={data} />
+					<Bar
+						options={options}
+						data={data}
+					/>
 					<div>
 						<span>
 							Datos extraídos de{' '}
 							<a
 								href='https://www.infobae.com/politica/2022/04/02/guerra-de-malvinas-el-70-de-los-combatientes-argentinos-tenia-menos-de-25-anos/'
 								target='_blank'
-								rel='noopener noreferrer'
-							>
+								rel='noopener noreferrer'>
 								Infobae
 							</a>
 						</span>
 					</div>
 				</section>
+
+				<div id="photos">
+					<h2>Fotos</h2>
+					<div id="images" className='imagesMoreHeight'>
+						<img src="img/1.jpg" alt="" id="myImg" loading='lazy' />
+						<img src="img/2.jpg" alt="" loading='lazy' />
+						<img src="img/3.jpg" alt="" loading='lazy' />
+						<img src="img/4.jpg" alt="" loading='lazy' />
+					</div>
+
+					<div id="images">
+						<img src="img/5.jpg" alt="" loading='lazy' />
+						<img src="img/6.jpg" alt="" loading='lazy' />
+						<img src="img/7.jpg" alt="" loading='lazy' />
+						<img src="img/8.jpg" alt="" loading='lazy' />
+					</div>
+				</div>
 			</main>
 
-      <footer className={styles.footer}>
-        <h3>Redes Sociales de la EESº77</h3>
-				<div className="center">
-        <a href="https://instagram.com/secundaria77mardelplata?igshid=YmMyMTA2M2Y" target="_blank" rel="noopener noreferrer"><Instagram />{' '}Instagram</a>
-        <a href="https://www.facebook.com/groups/423827537724306/" target="_blank" rel="noopener noreferrer"><Facebook />{' '}Facebook</a>
+			<footer className={styles.footer}>
+				<h3>Redes Sociales de la EESº77</h3>
+				<div className='center'>
+					<a
+						href='https://instagram.com/secundaria77mardelplata?igshid=YmMyMTA2M2Y'
+						target='_blank'
+						rel='noopener noreferrer'>
+						<span>
+							<Instagram /> Instagram
+						</span>
+					</a>
+					<a
+						href='https://www.facebook.com/groups/423827537724306/'
+						target='_blank'
+						rel='noopener noreferrer'>
+						<span><Facebook /> Facebook</span>
+					</a>
 				</div>
 				<hr />
-        <span className={styles.madeby}>Hecho por Martín Valdez</span>
-      </footer>
+				<span className={styles.madeby}>Hecho por Martín Valdez</span>
+			</footer>
 		</div>
 	);
 }
