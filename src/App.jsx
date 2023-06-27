@@ -116,47 +116,54 @@ const App = () => {
 				</section>
 
 				<div className={styles.photos}>
-					<h2>Fotos</h2>
-					<div
-						id={styles.images}
-						className={styles.imagesMoreHeight}>
-						<img
-							src='img/2.webp'
-							loading='lazy'
-						/>
-						<img
-							src='img/3.webp'
-							loading='lazy'
-						/>
-					</div>
-
-					<div id={styles.images}>
-						<img
-							src='img/4.webp'
-							loading='lazy'
-						/>
-						<img
-							src='img/5.webp'
-							loading='lazy'
-						/>
-						<img
-							src='img/6.webp'
-							loading='lazy'
-						/>
-						<img
-							src='img/7.webp'
-							loading='lazy'
-						/>
-					</div>
-				</div>
-
-				<div className={styles.photos}>
 					<h2>Mapa de las islas Malvinas</h2>
 					<img
 						src='img/malvinas.webp'
 						alt='Mapa de las islas Malvinas'
 						loading='lazy'
 					/>
+				</div>
+
+				<div className={styles.photos}>
+					<h2>Fotos</h2>
+
+					<div className={styles.images}>
+						<img
+							src='img/2.webp'
+							alt='Mostrador con objetos de Malvinas'
+							loading='lazy'
+						/>
+
+						<img
+							src='img/3.webp'
+							alt='Maqueta de malvinas de la EESº77'
+							loading='lazy'
+						/>
+
+						<img
+							src='img/4.webp'
+							alt='Mostrador con recuerdos de Malvinas'
+							loading='lazy'
+						/>
+
+						<img
+							src='img/5.webp'
+							alt='Fotos de Malvinas'
+							loading='lazy'
+						/>
+						
+						<img
+							src='img/6.webp'
+							alt='Fotos de Malvinas 2'
+							loading='lazy'
+						/>
+						
+						<img
+							src='img/7.webp'
+							alt='Fotos de Malvinas 3'
+							loading='lazy'
+						/>
+					</div>
 				</div>
 			</main>
 
@@ -166,13 +173,15 @@ const App = () => {
 					<a
 						href='https://instagram.com/secundaria77mardelplata?igshid=YmMyMTA2M2Y'
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noopener noreferrer'
+						title='Instagram de la EESº77'>
 						<Instagram /> Instagram
 					</a>
 					<a
 						href='https://www.facebook.com/groups/423827537724306/'
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noopener noreferrer'
+						title='Facebook de la EESº77'>
 						<Facebook /> Facebook
 					</a>
 				</div>
