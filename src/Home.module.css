@@ -154,7 +154,7 @@
 }
 
 .imagesMoreHeight img {
-  height: 420px !important;
+  height: auto !important;
 }
 
 #images img {
