@@ -116,22 +116,22 @@ const App = () => {
 				<div className={styles.photos}>
 					<h2>Fotos</h2>
 					<div id={styles.images} className={styles.imagesMoreHeight}>
-						<img src="img/1.jpg" loading="lazy" />
-						<img src="img/2.jpg" loading="lazy" />
-						<img src="img/4.jpg" loading="lazy" />
+						<img src="img/1.webp" loading="lazy" />
+						<img src="img/2.webp" loading="lazy" />
+						<img src="img/3.webp" loading="lazy" />
 					</div>
 
 					<div id={styles.images}>
-						<img src="img/5.jpg" loading="lazy" />
-						<img src="img/6.jpg" loading="lazy" />
-						<img src="img/7.jpg" loading="lazy" />
-						<img src="img/8.jpg" loading="lazy" />
+						<img src="img/4.webp" loading="lazy" />
+						<img src="img/5.webp" loading="lazy" />
+						<img src="img/6.webp" loading="lazy" />
+						<img src="img/7.webp" loading="lazy" />
 					</div>
 				</div>
 
 				<div className={styles.photos}>
 					<h2>Mapa de las islas Malvinas</h2>
-					<img src="img/malvinas.png" alt="Mapa de las islas Malvinas" />
+					<img src="img/malvinas.webp" alt="Mapa de las islas Malvinas" loading="lazy" />
 				</div>
 			</main>
 
