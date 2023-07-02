@@ -8,3 +8,23 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #090909;
 }
+
+.carousel-caption {
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.74);
+  border-radius: 4px;
+  padding: 10px 0;
+  text-wrap: balance;
+  margin-top: -5px;
+}
+
+@media screen and (max-width: 650px) {
+  .carousel-caption {
+		font-size: 14px;
+	}
+
+  .carousel-caption h3 {
+    font-size: calc(1.3rem + 0.3vw);
+    margin-bottom: 0.6rem;
+  }
+}

@@ -134,10 +134,17 @@
 	height: 55px;
 }
 
+.ownCarousel {
+	width: 60%;
+}
+
 .photos {
 	background: #fff;
 	color: #000;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	font-size: 24px;
 	padding: 10px 0;
 }
@@ -149,22 +156,6 @@
 .photos h2 {
 	margin-bottom: 9px;
 }
-
-.images {
-	display: grid;
-	grid-template-columns: 31.5% 31.5% 31.5%;
-	gap: 6px;
-	justify-content: center;
-	margin-top: 13px;
-	margin-bottom: 15px;
-}
-
-.images img {
-	width: 100%;
-	object-fit: cover;
-	height: auto !important;
-}
-
 
 .card p {
 	margin: 0;
@@ -202,23 +193,12 @@
 	font-size: 2rem;
 }
 
-@media screen and (max-width: 900px) {
-  .images {
-	  grid-template-columns: 45% 45%;
-  }
-}
-
 @media screen and (max-width: 650px) {
 	.title {
 		font-size: 2.5rem;
 	}
 
-	.images {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.images img {
+	.ownCarousel {
 		width: 100%;
 	}
 }

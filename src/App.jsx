@@ -9,6 +9,8 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { Facebook, Instagram } from 'react-bootstrap-icons';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import styles from './Home.module.css';
 import Video from './components/Video';
@@ -127,43 +129,76 @@ const App = () => {
 				<div className={styles.photos}>
 					<h2>Fotos</h2>
 
-					<div className={styles.images}>
-						<img
-							src='img/2.webp'
-							alt='Mostrador con objetos de Malvinas'
-							loading='lazy'
-						/>
+					<Carousel className={styles.ownCarousel}>
+						<Carousel.Item>
+							<img
+								className='d-block w-100'
+								src='img/2.webp'
+								alt='First slide'
+							/>
+							<Carousel.Caption>
+								<h3>Imagen 1</h3>
+							</Carousel.Caption>
+						</Carousel.Item>
+						<Carousel.Item>
+							<img
+								className='d-block w-100'
+								src='img/3.webp'
+								alt='Second slide'
+							/>
 
-						<img
-							src='img/3.webp'
-							alt='Maqueta de malvinas de la EESº77'
-							loading='lazy'
-						/>
+							<Carousel.Caption>
+								<h3>Imagen 2</h3>
+							</Carousel.Caption>
+						</Carousel.Item>
+						<Carousel.Item>
+							<img
+								className='d-block w-100'
+								src='img/4.webp'
+								alt='Third slide'
+							/>
 
-						<img
-							src='img/4.webp'
-							alt='Mostrador con recuerdos de Malvinas'
-							loading='lazy'
-						/>
+							<Carousel.Caption>
+								<h3>Imagen 3</h3>
+							</Carousel.Caption>
+						</Carousel.Item>
 
-						<img
-							src='img/5.webp'
-							alt='Fotos de Malvinas'
-							loading='lazy'
-						/>
-						
-						<img
-							src='img/6.webp'
-							alt='Fotos de Malvinas 2'
-							loading='lazy'
-						/>
-						
-						<img
-							src='img/7.webp'
-							alt='Fotos de Malvinas 3'
-							loading='lazy'
-						/>
-					</div>
+						<Carousel.Item>
+							<img
+								className='d-block w-100'
+								src='img/5.webp'
+								alt='Third slide'
+							/>
+
+							<Carousel.Caption>
+								<h3>Imagen 4</h3>
+							</Carousel.Caption>
+						</Carousel.Item>
+
+						<Carousel.Item>
+							<img
+								className='d-block w-100'
+								src='img/6.webp'
+								alt='Third slide'
+							/>
+
+							<Carousel.Caption>
+								<h3>Imagen 5</h3>
+							</Carousel.Caption>
+						</Carousel.Item>
+
+						<Carousel.Item>
+							<img
+								className='d-block w-100'
+								src='img/7.webp'
+								alt='Third slide'
+							/>
+
+							<Carousel.Caption>
+								<h3>Imagen 6</h3>
+							</Carousel.Caption>
+						</Carousel.Item>
+					</Carousel>
 				</div>
 			</main>
 
