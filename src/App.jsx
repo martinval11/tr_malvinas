@@ -60,41 +60,53 @@ const App = () => {
 	return (
 		<div className={styles.container}>
 			<nav className={styles.header}>
-				<h1 className={styles.title}>Vídeos de Malvinas</h1>
+				<h1 className={styles.title}>Contenido Digital de Malvinas</h1>
 			</nav>
 
 			<main className={styles.main}>
 				<div className={styles.grid}>
 					<div className={styles.card}>
-						<h2>Discurso de Galtieri</h2>
-						<Video link='https://www.youtube.com/embed/QFp5X1KzPGU' />
+						<div>
+							<h2>Discurso de Galtieri</h2>
+						</div>
+						<Video link='QFp5X1KzPGU' />
 					</div>
 
 					<div className={styles.card}>
-						<h2>Hundimiento del Ara General Belgrano</h2>
-						<Video link='https://www.youtube.com/embed/27zg3sWk_lQ' />
+						<div>
+							<h2>Hundimiento del Ara General Belgrano</h2>
+						</div>
+						<Video link='27zg3sWk_lQ' />
 					</div>
 
 					<div className={styles.card}>
-						<h2>Documental de Malvinas</h2>
-						<Video link='https://www.youtube.com/embed/bNI59kQG7Ow' />
+						<div>
+							<h2>Documental de Malvinas</h2>
+						</div>
+						<Video link='bNI59kQG7Ow' />
 					</div>
 
 					<div className={styles.card}>
-						<h2>Cortometraje de Malvinas</h2>
-						<Video link='https://www.youtube.com/embed/yW0hhriJ-Ew?start=27' />
+						<div>
+							<h2>Cortometraje de Malvinas</h2>
+						</div>
+						<Video link='yW0hhriJ-Ew' />
 					</div>
 
 					<div className={styles.card}>
-						<h2>Documental de la dictadura</h2>
-						<Video link='https://www.youtube.com/embed/ufzoqg3lIkY' />
+						<div>
+							<h2>Documental de la dictadura</h2>
+						</div>
+						<Video link='ufzoqg3lIkY' />
 					</div>
 
 					<div className={styles.card}>
-						<h2>
-							Canción {'"'}No Bombardeen Buenos Aires{'"'} de Charly Garcia
-						</h2>
-						<Video link='https://www.youtube.com/embed/q7fXoJZLzY0' />
+						<div>
+							<h2>
+								Canción {'"'}No Bombardeen Buenos Aires{'"'} de Charly Garcia
+							</h2>
+						</div>
+						<Video link='q7fXoJZLzY0' />
 					</div>
 				</div>
 
@@ -199,6 +211,12 @@ const App = () => {
 							</Carousel.Caption>
 						</Carousel.Item>
 					</Carousel>
+
+					<img
+						className={styles.conexionMalvinas}
+						src='img/conexion-malvinas.webp'
+						alt='Conexión Málvinas'
+					/>
 				</div>
 			</main>
 
