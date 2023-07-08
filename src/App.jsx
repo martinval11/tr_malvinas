@@ -131,7 +131,7 @@ const App = () => {
 
 				<div className={styles.mapContainer}>
 					<h2>Mapa de las islas Malvinas</h2>
-					<iframe src="https://padlet.com/Mesas/malvinas-gjebzesdysirfwgl" loading='lazy'></iframe>
+					<iframe src="https://padlet.com/Nick/malvinas-gjebzesdysirfwgl" loading='lazy'></iframe>
 				</div>
 
 				<div className={styles.photos}>
