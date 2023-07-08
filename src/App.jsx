@@ -37,7 +37,7 @@ export const options = {
 	},
 };
 
-const labels = ['Muertos', 'Suicidios', 'Heridos'];
+const labels = [['Muertos', 'en Combate'], 'Suicidios', 'Heridos'];
 
 export const data = {
 	labels,
@@ -103,7 +103,7 @@ const App = () => {
 					<div className={styles.card}>
 						<div>
 							<h2>
-								Canción {'"'}No Bombardeen Buenos Aires{'"'} de Charly Garcia
+								Canción “No Bombardeen Buenos Aires“ de Charly Garcia
 							</h2>
 						</div>
 						<Video link='q7fXoJZLzY0' />
@@ -129,13 +129,9 @@ const App = () => {
 					</div>
 				</section>
 
-				<div className={styles.photos}>
+				<div className={styles.mapContainer}>
 					<h2>Mapa de las islas Malvinas</h2>
-					<img
-						src='img/malvinas.webp'
-						alt='Mapa de las islas Malvinas'
-						loading='lazy'
-					/>
+					<iframe src="https://padlet.com/Mesas/malvinas-gjebzesdysirfwgl" loading='lazy'></iframe>
 				</div>
 
 				<div className={styles.photos}>
@@ -149,7 +145,7 @@ const App = () => {
 								alt='First slide'
 							/>
 							<Carousel.Caption>
-								<h3>Imagen 1</h3>
+								<h3>Fotos y documentos de la época</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 						<Carousel.Item>
@@ -160,7 +156,7 @@ const App = () => {
 							/>
 
 							<Carousel.Caption>
-								<h3>Imagen 2</h3>
+								<h3>Maqueta y obras de la EESº77 (2022)</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 						<Carousel.Item>
@@ -171,7 +167,7 @@ const App = () => {
 							/>
 
 							<Carousel.Caption>
-								<h3>Imagen 3</h3>
+								<h3>Títulos y trofeos de los excombatientes</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 
@@ -183,7 +179,7 @@ const App = () => {
 							/>
 
 							<Carousel.Caption>
-								<h3>Imagen 4</h3>
+								<h3>Recuerdos de la época</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 
@@ -195,7 +191,7 @@ const App = () => {
 							/>
 
 							<Carousel.Caption>
-								<h3>Imagen 5</h3>
+								<h3>Recuerdos de la época (2)</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 
@@ -207,7 +203,7 @@ const App = () => {
 							/>
 
 							<Carousel.Caption>
-								<h3>Imagen 6</h3>
+								<h3>Recuerdos de la época (3)</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 					</Carousel>
