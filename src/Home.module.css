@@ -186,6 +186,24 @@
 	margin-bottom: 9px;
 }
 
+.otherPhotos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+}
+
+.details {
+	text-align: center;
+	outline: none;
+	width: 95%;
+	margin-top: 10px;
+}
+
+.otherPhotos img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 .conexionMalvinas {
 	width: 100% !important;
 	max-width: 405px;
@@ -228,13 +246,19 @@
 	font-size: 2rem;
 }
 
+@media screen and (max-width: 850px) {
+	.ownCarousel {
+		width: 100%;
+	}
+
+	.details {
+		width: 100%
+	}
+}
+
 @media screen and (max-width: 650px) {
 	.title {
 		font-size: 2.5rem;
-	}
-
-	.ownCarousel {
-		width: 100%;
 	}
 }
 
